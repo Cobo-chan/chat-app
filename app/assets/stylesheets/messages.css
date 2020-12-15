@@ -1,0 +1,165 @@
+.wrapper {
+  display: flex;
+}
+.side-bar {
+  width: 300px;
+  background-color: #253141;
+  height: 100vh;
+}
+
+.side-bar-header {
+  height: 100px;
+  /* 背景色と同一のため必要なし
+  background-color: #253141;  */
+  padding: 0px 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create-chat a {
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
+}
+.rooms {
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+  padding: 0px 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0px 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.created-rooms a {
+  color: white;
+  text-decoration: none;
+}
+
+.chat {
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.chat-header {
+  height: 100px;
+  /* 背景色と同一のため必要なし
+  background-color: #ffffff; */
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  margin-top: 36px; 
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.header-button {
+  margin-top: 40px;
+}
+
+.header-button a {
+  padding: 20px;
+  border: 1px solid darkred;
+  text-decoration: none;
+  color: darkred;
+}
+
+.messages {
+  /* 190pxだと他の人が見た際に何の値か判別しにくい */
+  height: calc(100vh - 100px - 90px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  margin: 10px 0 0 0 ;
+}
+
+.upper-message {
+  display: flex;
+}
+
+.message-user {
+  font-size: 16px;
+  color: #434a54;
+  margin-right: 10px;
+}
+
+.message-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  font-size: 14px;
+  color: #434a54;
+  margin-bottom: 40px;
+}
+
+.form {
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-form {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+.text-input {
+  padding-left: 10px;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  background-color: #38aef0;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  margin-left: 15px;
+}
