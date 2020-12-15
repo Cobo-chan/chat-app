@@ -62,17 +62,104 @@
   /* 背景色と同一のため必要なし
   background-color: #ffffff; */
   padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  margin-top: 36px; 
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.header-button {
+  margin-top: 40px;
+}
+
+.header-button a {
+  padding: 20px;
+  border: 1px solid darkred;
+  text-decoration: none;
+  color: darkred;
 }
 
 .messages {
   /* 190pxだと他の人が見た際に何の値か判別しにくい */
   height: calc(100vh - 100px - 90px);
   background-color: #fafafa;
-  padding-top: 46px 40px 0;
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  margin: 10px 0 0 0 ;
+}
+
+.upper-message {
+  display: flex;
+}
+
+.message-user {
+  font-size: 16px;
+  color: #434a54;
+  margin-right: 10px;
+}
+
+.message-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  font-size: 14px;
+  color: #434a54;
+  margin-bottom: 40px;
 }
 
 .form {
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-form {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+.text-input {
+  padding-left: 10px;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  background-color: #38aef0;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  margin-left: 15px;
 }
