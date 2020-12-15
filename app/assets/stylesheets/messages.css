@@ -12,12 +12,44 @@
   /* 背景色と同一のため必要なし
   background-color: #253141;  */
   padding: 0px 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.user-name a {
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create-chat a {
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
+}
 .rooms {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0px 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0px 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.created-rooms a {
+  color: white;
+  text-decoration: none;
 }
 
 .chat {
